@@ -3,5 +3,10 @@
 }
 
 .marginLeft {
-    margin-left: 10px;
+    margin-left: 10px !important;
+}
+
+.symbolValue {
+    margin-left: 2rem !important;
+    font-size: 22px;
 }
