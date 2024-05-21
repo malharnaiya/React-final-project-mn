@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .marginLeft {
@@ -9,4 +9,38 @@
 .symbolValue {
     margin-left: 2rem !important;
     font-size: 22px;
+}
+
+.btnStyle {
+    border-radius: 20px;
+    width: 30px;
+    display: inline-block;
+    height: 30px;
+}
+
+.btnStyle label {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.btnStyle:hover,
+.btnStyle label:hover {
+    cursor: pointer;
+}
+
+.plusBtn {
+    background-color: green;
+}
+
+.reduceBtn {
+    background-color: red;
+}
+
+.btnStyle .plusLbl {
+    margin: -3px 8px;
+}
+
+.btnStyle .reducelbl {
+    margin: -3px 10px;
 }
